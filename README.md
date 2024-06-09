@@ -41,31 +41,38 @@ The Software Development Life Cycle is a framework that outlines the stages invo
 Phases of Software Development
 
 -Planning
+
 Planning involves defining project goals and scope.
 Allocates resources and create a project plan.
 
 -Requirements analysis
+
 Collects and document user requirements.
 Create detailed specifications that outline what the software should achieve.
 
 -Design
+
 Plans the architecture of the software.
 Design system components, user interfaces, and data models.
 
 -Implementation (Writing code)
+
 Write the actual code according to the design specifications.
 Develop and integrate different modules.
 
 -Software Testing
+
 Verify that the software meets the requirements.
 Identify and fix bugs.
 Perform various levels of testing, such as unit, integration, system, and acceptance testing.
 
 -Deployment
+
 Release the software to users.
 Ensure proper installation and configuration in the target environment.
 
 -Maintenance
+
 Provide ongoing support to fix issues and improve the software.
 Update the software to adapt to new requirements or environments.
 
@@ -74,12 +81,14 @@ Agile vs. Waterfall Models:
 Compare and contrast the Agile and Waterfall models of software development. What are the key differences, and in what scenarios might each be preferred?
 
 -Agile Model
+
 Development is broken down into small, manageable chunks called iterations or sprints.
 Adapts to changing requirements even late in the development process.
 Continuous interaction with customers and stakeholders throughout the project.
 Regular feedback is incorporated from stakeholders and end-users.
 
 -Waterfall Model
+
 Follows a strict sequence of phases: Requirements, Design, Implementation, Testing, Deployment, and Maintenance.
 Each phase must be completed before the next begins, with clear documentation and deliverables.
 Requirements are typically defined at the beginning and are expected to remain stable.
@@ -129,10 +138,12 @@ Explain the concept of modularity in software design. How does it improve mainta
 Modularity in software design refers to the practice of dividing a software system into modules that can be developed, tested, and maintained independently. Each module carries a specific piece of functionality and interacts with other modules through well-defined interfaces.
 
 It improves maintainability by:-
+
 -allowing debugging in specific module without affecting the entire system, this reduces the risk of introducing new bugs.
 -allows the use of smaller, self-contained modules which makes it easier for developers to understand, especially for those who are new to the codebase.
 
 How it improves Scalability:-
+
 -Different teams can work on different modules concurrently, speeding up the development process.
 -New features or updates can be added incrementally by integrating new modules or updating existing ones without overhauling the entire system.
 -Different modules can be deployed on different servers.
@@ -142,26 +153,31 @@ Testing in Software Engineering:
 Describe the different levels of software testing (unit testing, integration testing, system testing, acceptance testing). Why is testing crucial in software development?
 
 -Unit testing
+
 Unit testing focuses on the smallest testable parts of the software, called units or modules.
 The goal is to verify that each unit of the software performs as expected.
 example: Testing a function that adds two numbers to ensure it returns the correct sum.
 
 -Integration Testing
+
 Integration testing checks the interactions between different modules.
 The goal is to identify issues in the interfaces and interactions between integrated components.
 example: Testing the interaction between a database module and a data access layer to ensure data is correctly retrieved and stored.
 
 -System Testing
+
 System testing validates the complete and integrated software system.
 The goal is to ensure the system as a whole meets the specified requirements.
 example: Testing the entire e-commerce application to ensure that all features, like user login, product search, and checkout, work together as intended.
 
 -Accptance Testing
+
 Acceptance testing determines if the software is ready for release.
 The goal is to validate that the software meets business requirements and is acceptable to the end user.
 example: Testing a custom CRM system with actual business workflows to ensure it supports the business operations as expected.
 
 Why testing is crucial in software development
+
 -To ensure quality and reliability.
 -To improve perfomance and efficiency.
 -For user satisfaction.
@@ -176,26 +192,31 @@ What are version control systems, and why are they important in software develop
 version control system is software that helps manage changes to code, documents, and other collections of information.
 
 Why they are important
+
 -Allows multiple developers to work on different parts of the project simultaneously without overwriting each other’s changes.
 -Keeps a detailed history of all changes, including who made them and why.
 -Ensures that code and project data are safe from accidental loss.
 -Helps resolve conflicts when multiple developers make changes to the same part of the code, improving productivity.
 
 Examples of popular version control systems and their features
+
 -Git
 Each developer has a complete local copy of the repository, including its full history.
 Fast performance for both local and remote operations.
 
 -Subversion
+
 All changes are committed to a central repository, making it easier to manage and control.
 Tracks changes to directories as well as files.
 
 -Concurrent Versions System
+
 All changes are committed to a central server.
 Allows file locking to prevent conflicts.
 Supports basic branching and merging capabilities.
 
 -Perforce
+
 Highly scalable and performant, even with very large codebases.
 Granular access controls and security features.
 
@@ -206,6 +227,7 @@ Discuss the role of a software project manager. What are some key responsibiliti
 The role of a software project manager is crucial in ensuring the successful planning, execution, and delivery of software projects. This role involves coordinating the efforts of the development team, managing resources, communicating with stakeholders, and maintaining project timelines and budgets.
 
 Key responsibilities
+
 -Project Planning and Scheduling
 -Team Management
 -Risk Management
@@ -214,6 +236,7 @@ Key responsibilities
 -Quality Assurance
 
 Key challenges
+
 -Balancing the project timeline with the quality and scope of work.
 -Uncontrolled changes or continuous growth in the project’s scope.
 -Managing limited resources, including team members, budget, and tools.
@@ -227,12 +250,14 @@ Define software maintenance and explain the different types of maintenance activ
 Software maintenance involves the modification of a software product after its delivery to correct faults, improve performance or other attributes, or adapt the product to a changed environment.
 
 Maintanance activities
+
 -Corrective Maintenance
 -Adaptive Maintenance
 -Perfective Maintenance
 -Preventive Maintenance
 
 Why maintanance is essential part of software lifecycle
+
 -Maintanance ensures bug fixes and error conections
 -Ensures important updates are made to software
 -All the updates improves perfomance of the software
@@ -244,6 +269,7 @@ Ethical Considerations in Software Engineering:
 What are some ethical issues that software engineers might face? How can software engineers ensure they adhere to ethical standards in their work?
 
 Ethical issues software engineers face
+
 -Engineers may face dilemmas about what data to collect and how to use it responsibly.
 -Engineers must handle the discovery and disclosure of software vulnerabilities responsibly.
 -Ensuring that code and other software components are used legally and ethically.
@@ -251,6 +277,7 @@ Ethical issues software engineers face
 -Addressing biases in AI algorithms that can lead to unfair or discriminatory outcomes.
 
 How they can adhere to ethical standards
+
 -Continuous learning about ethical principles and standards in software engineering.
 -Following codes of conduct.
 -Maintaining open lines of communication with stakeholders about potential ethical issues.
